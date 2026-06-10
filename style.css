@@ -1,381 +1,377 @@
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: Arial, Helvetica, sans-serif;
- }
-
- .border {
-     border: 0.1px solid transparent;
- }
-
- .border:hover {
-     cursor: pointer;
-     border: 1px solid white;
- }
-
- .nav1 {
-     background-color: #131921;
-     width: 99vw;
-     height: 60px;
-     display: flex;
-     padding-top: 2px;
- }
-
- .nav-logo-location {
-     height: 60px;
-     display: flex;
-     gap: 15px;
-     width: 217px;
-
- }
-
- .logo-img {
-     border: none;
-     align-self: center;
-     height: 60px;
-     width: 114px;
-
- }
-
- .location-nav {
-     align-items: center;
-     display: flex;
-     height: 60px;
-     width: 90px;
-
- }
-
- .location-img {
-     padding-top: 10px;
-     height: 18px;
-
- }
-
- .location-text {
-     color: white;
-
- }
-
- .nav-all-section {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 60px;
-     height: 38px;
-     background-color: #cccccc;
-     color: #0f1111;
-     border: 0.1px solid #cccccc;
-     border-top-left-radius: 3px;
-     border-bottom-left-radius: 3px;
- }
-
-
- .search-bar>form>input {
-     width: 750px;
-     height: 38px;
-     font-size: 16px;
-     color: #cccccc;
-
- }
-
- .search-bar-section {
-     display: flex;
-     align-items: center;
-     height: 60px;
-     width: 850px;
-     text-align: center;
-
-
- }
-
- .search-icon>img {
-     width: 30px;
- }
-
- .search-icon {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     background-color: #ffce12;
-     width: 45px;
-     height: 38px;
-     border: 0.1px solid #cccccc;
-     border-top-right-radius: 3px;
-     border-bottom-right-radius: 3px;
- }
-
-
- .extra-section-nav {
-     margin-left: 23px;
-     gap: 25px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     color: white;
-
- }
-
-
-
- .cart-section-nav {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 8px;
-
- }
-
- .nav2 {
-     gap: 23px;
-     color: white;
-     width: 99vw;
-     height: 39px;
-     background-color: #232f3e;
-     display: flex;
-     align-items: center;
- }
-
- .extra-secondsec {
-     gap: 23px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
-
- .all-nav2 {
-     margin-left: 20px;
-     justify-content: center;
-     align-items: center;
-     display: flex;
-     width: 60px;
-     height: 33px;
- }
-
- .extra-secondsec>div {
-     width: 105px;
-     height: 33px;
-     font-size: 14px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
-
-
- .background-color {
-     background-color: #e3e6e6;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     gap: 20px;
- }
-
- .backcovor-box {
-     width: 97vw;
-     height: 240px;
- }
-
- .back-img {
-     top: 100px;
-     position: absolute;
-     height: 600px;
-     background-size: cover;
-     width: 1500px;
-     background-image: url("/recources/61PIYhDh2ML._SX3000_ (1).jpg");
- }
-
- .india-web-box {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 1460px;
-     height: 40px;
-     background-color: #f5f6f6;
-     color: #0f1111;
-     font-size: 14px;
-     z-index: 2;
-
- }
-
- .product-section-1 {
-     display: flex;
-     z-index: 2;
-     gap: 20px;
- }
-
- .section1-firstdiv {
-     width: 350px;
-     height: 385px;
-     padding: 20px 0 15px 0;
-     display: flex;
-     gap: 8px;
-     background-color: white;
-     flex-direction: column;
- }
-
- .section1-firstdiv-heading {
-     padding: 0 20px;
-     font-size: 1.3rem;
- }
-
- .section1-firstdiv-product-menu {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 350px;
-     height: 280px;
-     flex-wrap: wrap;
-     column-gap: 20px;
- }
-
- .section1-firstdiv-product-img>p {
-     font-size: 12px;
- }
-
-
-
-
- .recently-viewed-section-inner {
-     width: 100vw;
-     height: 123px;
-     border: 1px solid #DDD;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 715px;
-     border-radius: 6px;
-
-
- }
-
- .recently-viewed-section {
-     padding: 20px 0;
-     width: 100vw;
-     height: 164px;
-     background-color: white;
- }
-
-
- .recently-viewed-section-inner-box1 {
-     display: flex;
-     flex-direction: column;
-     gap: 32px;
- }
-
- .recently-viewed-section-inner-box2 {
-     font-size: 10px;
-     height: 35px;
-     width: 68px;
-     text-decoration: none;
-     color: #2162a1;
- }
-
- .recently-viewed-section-inner-box2>a {
-     text-decoration: none;
-     color: #2162a1;
- }
-
- .back-to-top {
-     height: 50px;
-     width: 100%;
-     background-color: #37475A;
-     color: white;
-     border: 1px solid #37475A;
-     cursor: pointer;
-     text-decoration: none;
- }
-
- .back-to-top>a {
-     background-color: #37475A;
-     color: white;
-     border: 1px solid #37475A;
-     text-decoration: none;
- }
-
- .footer-info-div {
-     width: 100vw;
-     height: 370px;
-     display: flex;
-     background-color: #232f3e;
-     padding: 40px 260px;
- }
-
- .footer-info-box {
-     gap: 120px;
-     width: 1000px;
-     height: 290px;
-
- }
-
- .line {
-     width: 100vw;
-     height: 0.8px;
-     background-color: #3a4553;
- }
-
- .footer-info-div-boxes {
-     display: flex;
-     flex-direction: column;
-     justify-content: start;
-     gap: 14px;
-     color: white;
- }
-
- .footer-info-div-boxes>a {
-     font-size: 14px;
-     text-decoration: none;
-     cursor: pointer;
-     color: #dddddd;
- }
-
- .footer-logo-div {
-     background-color: #232f3e;
-     width: 100vw;
-     height: 100px;
-     display: flex;
-     justify-content: space-between;
-     padding: 0 400px;
- }
-
- .footer-logo-div-btn {
-     font-size: 13px;
-     color: white;
-     background-color: #232f3e;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 12px;
- }
-
- .footer-logo-div-btn>button {
-     color: #cccccc;
-     border: 0.1px solid #848688;
-     background-color: #232f3e;
-     display: flex;
-     border-radius: 7px;
-     align-items: center;
-     justify-content: center;
-     cursor: pointer;
- }
-
- .btn1 {
-     gap: 25px;
-     width: 113px;
-     height: 34px;
- }
-
- .btn2 {
-     gap: 6px;
-     width: 156px;
-     height: 34px;
- }
-
- .btn3 {
-     width: 130px;
-     height: 34px;
- }
-
- 
- 
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border {
+    border: 0.1px solid transparent;
+}
+
+.border:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.nav1 {
+    background-color: #131921;
+    width: 99vw;
+    height: 60px;
+    display: flex;
+    padding-top: 2px;
+}
+
+.nav-logo-location {
+    height: 60px;
+    display: flex;
+    gap: 15px;
+    width: 217px;
+
+}
+
+.logo-img {
+    border: none;
+    align-self: center;
+    height: 60px;
+    width: 114px;
+
+}
+
+.location-nav {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 90px;
+
+}
+
+.location-img {
+    padding-top: 10px;
+    height: 18px;
+
+}
+
+.location-text {
+    color: white;
+
+}
+
+.nav-all-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 38px;
+    background-color: #cccccc;
+    color: #0f1111;
+    border: 0.1px solid #cccccc;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+.search-bar>form>input {
+    width: 750px;
+    height: 38px;
+    font-size: 16px;
+    color: #cccccc;
+
+}
+
+.search-bar-section {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 850px;
+    text-align: center;
+
+
+}
+
+.search-icon>img {
+    width: 30px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffce12;
+    width: 45px;
+    height: 38px;
+    border: 0.1px solid #cccccc;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.extra-section-nav {
+    margin-left: 23px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+
+
+.cart-section-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.nav2 {
+    gap: 23px;
+    color: white;
+    width: 99vw;
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+}
+
+.extra-secondsec {
+    gap: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.all-nav2 {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 33px;
+}
+
+.extra-secondsec>div {
+    width: 105px;
+    height: 33px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background-color {
+    background-color: #e3e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.backcovor-box {
+    width: 97vw;
+    height: 240px;
+}
+
+.back-img {
+    top: 100px;
+    position: absolute;
+    height: 600px;
+    background-size: cover;
+    width: 1500px;
+    background-image: url("/recources/61PIYhDh2ML._SX3000_ (1).jpg");
+}
+
+.india-web-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1460px;
+    height: 40px;
+    background-color: #f5f6f6;
+    color: #0f1111;
+    font-size: 14px;
+    z-index: 2;
+
+}
+
+.product-section-1 {
+    display: flex;
+    z-index: 2;
+    gap: 20px;
+}
+
+.section1-firstdiv {
+    width: 350px;
+    height: 385px;
+    padding: 20px 0 15px 0;
+    display: flex;
+    gap: 8px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.section1-firstdiv-heading {
+    padding: 0 20px;
+    font-size: 1.3rem;
+}
+
+.section1-firstdiv-product-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 280px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.section1-firstdiv-product-img>p {
+    font-size: 12px;
+}
+
+
+
+
+.recently-viewed-section-inner {
+    width: 100vw;
+    height: 123px;
+    border: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 715px;
+    border-radius: 6px;
+
+
+}
+
+.recently-viewed-section {
+    padding: 20px 0;
+    width: 100vw;
+    height: 164px;
+    background-color: white;
+}
+
+
+.recently-viewed-section-inner-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.recently-viewed-section-inner-box2 {
+    font-size: 10px;
+    height: 35px;
+    width: 68px;
+    text-decoration: none;
+    color: #2162a1;
+}
+
+.recently-viewed-section-inner-box2>a {
+    text-decoration: none;
+    color: #2162a1;
+}
+
+.back-to-top {
+    height: 50px;
+    width: 100%;
+    background-color: #37475A;
+    color: white;
+    border: 1px solid #37475A;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-to-top>a {
+    background-color: #37475A;
+    color: white;
+    border: 1px solid #37475A;
+    text-decoration: none;
+}
+
+.footer-info-div {
+    width: 100vw;
+    height: 370px;
+    display: flex;
+    background-color: #232f3e;
+    padding: 40px 260px;
+}
+
+.footer-info-box {
+    gap: 120px;
+    width: 1000px;
+    height: 290px;
+
+}
+
+.line {
+    width: 100vw;
+    height: 0.8px;
+    background-color: #3a4553;
+}
+
+.footer-info-div-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 14px;
+    color: white;
+}
+
+.footer-info-div-boxes>a {
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #dddddd;
+}
+
+.footer-logo-div {
+    background-color: #232f3e;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+}
+
+.footer-logo-div-btn {
+    font-size: 13px;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo-div-btn>button {
+    color: #cccccc;
+    border: 0.1px solid #848688;
+    background-color: #232f3e;
+    display: flex;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn1 {
+    gap: 25px;
+    width: 113px;
+    height: 34px;
+}
+
+.btn2 {
+    gap: 6px;
+    width: 156px;
+    height: 34px;
+}
+
+.btn3 {
+    width: 130px;
+    height: 34px;
+}
